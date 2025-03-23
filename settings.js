@@ -10,7 +10,7 @@ SESSION_ID: process.env.SESSION_ID === undefined ? 'SUPUN-MD=yFEVyBoI#aOfQGEj3XD
 PREFIX: process.env.PREFIX || '.' ,
 PORT: process.env.PORT === undefined ? "8000" : process.env.PORT,
 OWNER_NUMBER: process.env.OWNER_NUMBER === undefined ? '94743430452' : process.env.OWNER_NUMBER,
-MODE: process.env.MODE === undefined ?"inbox" : process.env.MODE,
+MODE: process.env.MODE === undefined ?"public" : process.env.MODE,
 AUTO_READ_STATUS: process.env.AUTO_READ_STATUS === undefined ?"false" : process.env.AUTO_READ_STATUS,
 AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT === undefined ?"false" : process.env.AUTO_STATUS_REACT,
 AUTO_VOICE: process.env.AUTO_VOICE === undefined ? "false" : process.env.AUTO_VOICE,
